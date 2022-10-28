@@ -7,4 +7,4 @@ include_directories(.)
 include_directories(lesson1)
 
 add_executable(prata
-        lesson1/task_1.cpp)
+        lesson1/task_2.cpp)
