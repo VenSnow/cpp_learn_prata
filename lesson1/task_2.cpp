@@ -12,7 +12,7 @@ double getFarlongsInYards(double distance)
     return distance * 220;
 }
 
-int main()
+int task2()
 {
     using namespace std;
     cout << "Enter distance in furlongs: ";

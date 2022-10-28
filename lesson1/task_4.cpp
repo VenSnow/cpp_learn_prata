@@ -14,7 +14,7 @@ int getAgeInMonth(int age)
     return age * 12;
 }
 
-int main()
+int task4()
 {
     using namespace std;
     int age;

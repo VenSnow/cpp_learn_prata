@@ -7,7 +7,7 @@
 
 #include "iostream"
 
-int main()
+int task1()
 {
     using namespace std;
     string fullName = "Tim Hale";

@@ -24,7 +24,7 @@ void generateSecondSentence()
     cout << "See how they run" << endl;
 }
 
-int main()
+int task3()
 {
     generateFirstSentence();
     generateFirstSentence();
