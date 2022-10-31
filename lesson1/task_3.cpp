@@ -24,11 +24,11 @@ void generateSecondSentence()
     cout << "See how they run" << endl;
 }
 
-int task3()
+void lesson1Task3()
 {
     generateFirstSentence();
     generateFirstSentence();
     generateSecondSentence();
     generateSecondSentence();
-    return 0;
+    cout << "\n" << endl;
 }

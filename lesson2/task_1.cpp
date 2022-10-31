@@ -7,7 +7,7 @@
  */
 //
 
-void task1()
+void lesson2Task1()
 {
     using namespace std;
     const int inchInFoot = 12;
@@ -19,4 +19,5 @@ void task1()
     int inchHeight = (int)footHeight % inchInFoot;
 
     cout << "Your height: " << footHeight << " foot " << inchHeight << " inch" << endl;
+    cout << "\n" << endl;
 }

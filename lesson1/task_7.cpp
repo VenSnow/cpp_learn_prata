@@ -11,7 +11,7 @@
 
 #include "iostream"
 
-int task7()
+void lesson1Task7()
 {
     using namespace std;
     cout << "Enter the number of hours: ";
@@ -21,5 +21,5 @@ int task7()
     int minutes;
     cin >> minutes;
     cout << "Time: " << hours << ":" << minutes << endl;
-    return 0;
+    cout << "\n" << endl;
 }

@@ -24,13 +24,13 @@ double transformToAstronomical(double lightYears)
     return lightYears * 63240;
 }
 
-int task6()
+void lesson1Task6()
 {
     using namespace std;
     cout << "Enter the number of light years: ";
     double lightYears;
     cin >> lightYears;
-    cout << lightYears << " light years = " << transformToAstronomical(lightYears) << " astronomical units.";
-    return 0;
+    cout << lightYears << " light years = " << transformToAstronomical(lightYears) << " astronomical units." << endl;
+    cout << "\n" << endl;
 }
 

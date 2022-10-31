@@ -20,13 +20,13 @@ double transformToFahrenheit(double temp)
     return 1.8 * temp + 32;
 }
 
-int task5()
+void lesson1Task5()
 {
     using namespace std;
     cout << "Please enter a Celsius value: ";
     double temp;
     cin >> temp;
-    cout << temp << "degrees Celsius is " << transformToFahrenheit(temp) << " degrees Fahrenheit";
-    return 0;
+    cout << temp << "degrees Celsius is " << transformToFahrenheit(temp) << " degrees Fahrenheit" << endl;
+    cout << "\n" << endl;
 }
 

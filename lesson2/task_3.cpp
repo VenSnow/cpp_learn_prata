@@ -14,7 +14,7 @@
  */
 //
 
-void task3()
+void lesson2Task3()
 {
     using namespace std;
     double const arcSecondsInArcMinute = 60;
@@ -41,5 +41,6 @@ void task3()
     cout << degrees << " degrees ";
     cout << arcMinutes << " minutes ";
     cout << arcSeconds << " seconds = " << widthInDegrees << " degrees" << endl;
+    cout << "\n" << endl;
 }
 

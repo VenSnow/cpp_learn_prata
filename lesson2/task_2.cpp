@@ -12,7 +12,7 @@
  */
 //
 
-void task2()
+void lesson2Task2()
 {
     using namespace std;
     const double inchInFoot = 12.0;
@@ -38,4 +38,5 @@ void task2()
     double bmi = weightInKilo / (heightInMeter * heightInMeter);
 
     cout << "Your bmi is " << bmi << endl;
+    cout << "\n" << endl;
 }

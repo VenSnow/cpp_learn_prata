@@ -14,12 +14,12 @@ int getAgeInMonth(int age)
     return age * 12;
 }
 
-int task4()
+void lesson1Task4()
 {
     using namespace std;
     int age;
     cout << "Enter your age: ";
     cin >> age;
     cout << "Your age in months is " << getAgeInMonth(age) << endl;
-    return 0;
+    cout << "\n" << endl;
 }

@@ -11,7 +11,7 @@
  */
 //
 
-void task7()
+void lesson2Task7()
 {
     using namespace std;
 
@@ -29,4 +29,5 @@ void task7()
     double gasolinePerHundredMiles = gallons / (miles + leftMiles);
 
     cout << "You spent " << gasolinePerHundredMiles << " gallons per 100 miles" << endl;
+    cout << "\n" << endl;
 }

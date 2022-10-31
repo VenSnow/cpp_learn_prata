@@ -13,7 +13,7 @@
  */
 //
 
-void task5()
+void lesson2Task5()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);
@@ -29,5 +29,6 @@ void task5()
     long double percentOfWorldPopulation = (double(usPopulation) / (worldPopulation / 100));
 
     cout << "The population of the US is " << percentOfWorldPopulation <<"% of the world population." << endl;
+    cout << "\n" << endl;
 }
 

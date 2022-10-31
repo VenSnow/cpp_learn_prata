@@ -8,7 +8,7 @@
  */
 //
 
-void task6()
+void lesson2Task6()
 {
     using namespace std;
 
@@ -23,4 +23,5 @@ void task6()
     double gasolinePerHundredKilometers = gasoline / distance * 100;
 
     cout << "You spent " << gasolinePerHundredKilometers << " liters of gasoline per 100 kilometers" << endl;
+    cout << "\n" << endl;
 }

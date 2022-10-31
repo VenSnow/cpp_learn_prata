@@ -11,7 +11,7 @@
  */
 //
 
-void task4()
+void lesson2Task4()
 {
     using namespace std;
 
@@ -39,4 +39,5 @@ void task4()
     cout << finalHours << " hours, ";
     cout << finalMinutes << " minutes, ";
     cout << finalSeconds << " seconds" << endl;
+    cout << "\n" << endl;
 }
