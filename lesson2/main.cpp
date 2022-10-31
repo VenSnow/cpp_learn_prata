@@ -1,15 +1,16 @@
 //
-// Main File
+// Main
 //
 
 #include "iostream"
-#include "lesson1/task_1.cpp"
-#include "lesson1/task_2.cpp"
-#include "lesson1/task_3.cpp"
-#include "lesson1/task_4.cpp"
-#include "lesson1/task_5.cpp"
-#include "lesson1/task_6.cpp"
-#include "lesson1/task_7.cpp"
+#include "lesson2/task_1.cpp"
+#include "lesson2/task_2.cpp"
+#include "lesson2/task_3.cpp"
+#include "lesson2/task_4.cpp"
+#include "lesson2/task_5.cpp"
+#include "lesson2/task_6.cpp"
+#include "lesson2/task_7.cpp"
+using namespace std;
 
 void printDevider()
 {
@@ -18,8 +19,6 @@ void printDevider()
 
 int main()
 {
-    using namespace std;
-
     printDevider();
     cout << "\nTask number 1\n" << endl;
     task1();
@@ -55,3 +54,4 @@ int main()
     task7();
     printDevider();
 }
+
