@@ -22,5 +22,5 @@ void task6()
 
     double gasolinePerHundredKilometers = gasoline / distance * 100;
 
-    cout << "You spent " << gasolinePerHundredKilometers << " liters of gasoline per 100 kilometers";
+    cout << "You spent " << gasolinePerHundredKilometers << " liters of gasoline per 100 kilometers" << endl;
 }

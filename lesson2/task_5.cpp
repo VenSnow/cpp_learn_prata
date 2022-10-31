@@ -28,6 +28,6 @@ void task5()
 
     long double percentOfWorldPopulation = (double(usPopulation) / (worldPopulation / 100));
 
-    cout << "The population of the US is " << percentOfWorldPopulation <<"% of the world population.";
+    cout << "The population of the US is " << percentOfWorldPopulation <<"% of the world population." << endl;
 }
 

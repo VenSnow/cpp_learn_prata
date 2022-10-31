@@ -23,9 +23,10 @@ void task7()
     cin >> gasoline;
 
     double miles = 100 / kmInMile;
+    double leftMiles = 100 - miles;
     double gallons = gasoline / litersInGallons;
 
-    double gasolinePerHundredMiles = gallons / miles;
+    double gasolinePerHundredMiles = gallons / (miles + leftMiles);
 
-    cout << "You spent " << gasolinePerHundredMiles << " gallons per 100 miles";
+    cout << "You spent " << gasolinePerHundredMiles << " gallons per 100 miles" << endl;
 }
